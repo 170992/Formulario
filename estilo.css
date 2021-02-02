@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #2675a6;
+    justify-content: center;/*alinhar o conteudo no centro*/
+    margin-left: 30%;
+  
+    font-family: sans-serif;
+    font-size: 1em;
+}
+h1, p{
+    color: #ffff;
+}
+
+}
+form{
+   width: 550px;
+    border: 3px solid #ffff;
+    box-sizing: border-box;
+    padding: 10px;
+    
+}
+input, select, textarea, button{
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+.grupo{
+    border: none;
+}
+.campo{
+    margin-bottom: 1em;
+   
+}
+.campo label{
+    margin-bottom: 0.2em;
+    display: block;
+}
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+}
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #2675a6;
+    display: block;
+}
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background-color: black;
+    color: #fff;
+}
+
+.campo input[type="text"]{
+    position: relative;
+    right: 15px;
+}
+.label{/*label do nome e sobrenome*/
+    position: relative;
+    right: 15px;
+}
+
+.check{
+    display: inline-block;
+}
+
+.botao{
+    width: 100px;
+    background-color: black;
+    color: #ffff;
+}
+.botao:hover{
+    background-color: #ffff;
+    color: black;
+}
+
